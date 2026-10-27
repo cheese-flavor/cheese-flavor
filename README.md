@@ -14,7 +14,7 @@
 
 - 🎓 충북대학교 **빅데이터 협동과정 석사** · 경영정보학과 학사
 - 🔬 **Computer Vision · Feature-level Fusion · Model Efficiency**
-- 🧭 사용자 행동과 도로 네트워크를 활용한 **추천 및 경로 최적화**
+- 🧭 사용자 행동 기반 **방문·선호 패턴 분석 및 추천 성능 분석**
 - 🌱 최근 작업 추가 예정
 
 ## 🛠️ Tech Stack
@@ -59,10 +59,11 @@
 - **회귀·앙상블 모델 비교** — Random Forest, Extra Trees, Gradient Boosting, LightGBM 등을 비교하고 잔차와 검증 곡선으로 결과를 해석
 - **시계열 검증** — 예측 시점에 이용 가능한 입력을 정의하고, 시간순 분할·TimeSeriesSplit·기준선 비교로 데이터 누수를 점검
 
-### Recommendation & Route Optimization
+### Recommendation & User Behavior Analysis
 
-- **사용자 행동 데이터 분석** — 성별·연령·동반자 등 사용자 특성과 만족도 데이터를 바탕으로 추천 문제를 분석
-- **도로 네트워크 최적화** — OSMnx와 Dijkstra를 활용해 실제 도로망의 거리·위험도 가중치를 반영하고, Folium으로 경로를 시각화
+- **사용자 그룹별 패턴 분석** — 사용자 특성에 따른 방문·선호 패턴 비교 및 그룹별 차이 분석
+- **추천 오류 원인 분석** — 추천 결과의 오류 사례 검토 및 오류 발생 원인 분석
+- **세그먼트별 성능 분석** — 사용자 세그먼트별 추천 성능 비교 및 성능 차이 분석
 
 ### Retrieval-Augmented Generation
 
@@ -91,9 +92,11 @@
 
 - [논문 보기 · KCI](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003153652) · [DOI: 10.13088/jiis.2024.30.4.223](https://doi.org/10.13088/jiis.2024.30.4.223)
 
-- 활용 기술·방법: `Python` `Hybrid Filtering` `OSMnx` `Dijkstra`
-- 사용자 특성과 행동 데이터를 활용한 개인화 관광지 추천 연구에 참여
-- **선행연구·시장 자료 분석, 실제 도로망 기반 최단경로 계산 및 시각화**를 담당
+- **연구 주제**: 하이브리드 필터링과 사용자 행동 데이터를 활용한 개인화 관광지 추천
+- **담당 업무 · 사용자 그룹 분석**: 사용자 그룹별 방문·선호 패턴 비교 및 특성 분석
+- **담당 업무 · 오류 분석**: 추천 결과의 오류 사례 검토 및 원인 분석
+- **담당 업무 · 성능 분석**: 사용자 세그먼트별 추천 성능 비교 및 차이 분석
+- 담당 업무 관련 기술·방법: `Python` `User Behavior Analysis` `Error Analysis` `Segment-level Evaluation`
 
 <details>
 <summary><b>More Experience</b> · 의료 영상 / 입찰 데이터 / 공공데이터</summary>
