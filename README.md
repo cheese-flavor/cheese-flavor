@@ -15,7 +15,7 @@
 - 🎓 충북대학교 **빅데이터 협동과정 석사** · 경영정보학과 학사
 - 🔬 **Computer Vision · Feature-level Fusion · Model Efficiency**
 - 🧭 사용자 행동과 도로 네트워크를 활용한 **추천 및 경로 최적화**
-- 🌱 최근에는 **RAG · LLM 애플리케이션 · 시계열 수요 예측**을 구현하고 기록합니다.
+- 🌱 최근 작업 추가 예정
 
 ## 🛠️ Tech Stack
 
