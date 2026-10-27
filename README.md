@@ -14,7 +14,7 @@
 
 - 🎓 충북대학교 **빅데이터 협동과정 석사** · 경영정보학과 학사
 - 🔬 **Computer Vision · Feature-level Fusion · Model Efficiency**
-- 🧭 사용자 행동 기반 **방문·선호 패턴 분석 및 추천 성능 분석**
+- 🧭 사용자 행동 기반 **방문·선호 패턴 분석, 추천 성능 분석 및 경로 추천**
 - 🌱 최근 작업 추가 예정
 
 ## 🛠️ Tech Stack
@@ -33,11 +33,13 @@
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
-### AI Applications & Visualization
+### AI Applications & Geospatial Visualization
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Folium](https://img.shields.io/badge/Folium-77B829?style=flat-square&logo=folium&logoColor=white)
+
+- **도로망 분석·경로 탐색**: OSMnx · Dijkstra
 
 ### Dev & Tools
 
@@ -59,11 +61,13 @@
 - **회귀·앙상블 모델 비교** — Random Forest, Extra Trees, Gradient Boosting, LightGBM 등을 비교하고 잔차와 검증 곡선으로 결과를 해석
 - **시계열 검증** — 예측 시점에 이용 가능한 입력을 정의하고, 시간순 분할·TimeSeriesSplit·기준선 비교로 데이터 누수를 점검
 
-### Recommendation & User Behavior Analysis
+### Recommendation, User Behavior & Routing
 
 - **사용자 그룹별 패턴 분석** — 사용자 특성에 따른 방문·선호 패턴 비교 및 그룹별 차이 분석
 - **추천 오류 원인 분석** — 추천 결과의 오류 사례 검토 및 오류 발생 원인 분석
 - **세그먼트별 성능 분석** — 사용자 세그먼트별 추천 성능 비교 및 성능 차이 분석
+- **경로 추천** — OSMnx 기반 실제 도로망과 Dijkstra 최단경로 탐색을 활용한 경로 추천 및 Folium 지도 시각화
+- **선행연구 검토** — 관광지 추천 관련 선행연구 일부 검토 및 기존 접근 방식 정리
 
 ### Retrieval-Augmented Generation
 
@@ -96,7 +100,9 @@
 - **담당 업무 · 사용자 그룹 분석**: 사용자 그룹별 방문·선호 패턴 비교 및 특성 분석
 - **담당 업무 · 오류 분석**: 추천 결과의 오류 사례 검토 및 원인 분석
 - **담당 업무 · 성능 분석**: 사용자 세그먼트별 추천 성능 비교 및 차이 분석
-- 담당 업무 관련 기술·방법: `Python` `User Behavior Analysis` `Error Analysis` `Segment-level Evaluation`
+- **담당 업무 · 경로 추천**: 실제 도로망 기반 최단경로 탐색 및 추천 경로 시각화
+- **담당 업무 · 선행연구**: 관련 선행연구 일부 검토 및 기존 추천 접근 방식 정리
+- 담당 업무 관련 기술·방법: `Python` `OSMnx` `Dijkstra` `Folium` `User Behavior Analysis` `Error Analysis` `Segment-level Evaluation`
 
 <details>
 <summary><b>More Experience</b> · 의료 영상 / 입찰 데이터 / 공공데이터</summary>
